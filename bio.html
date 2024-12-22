@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACORP - Biotechnology</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .tech-item {
+            background: rgb(0, 0, 0);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .tech-showcase {
+            background: #000000;
+            color: white;
+            padding: 4rem 2rem;
+        }
+
+        .tech-showcase h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
+
+        .specs-section {
+            background: #cacaca;
+            padding: 4rem 2rem;
+            animation: backgroundColorChange 10s infinite alternate;
+        }
+
+        .specs-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ALOURA CORPORATION (PROTOYPE V:0.001)</a>
+            <div class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="index.html#features">Locations</a>
+                <a href="index.html#innovations">Innovations</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Biotechnology Innovations</h1>
+        <p>Advancing the frontiers of biotechnology to improve human health and create sustainable solutions for our future.</p>
+    </section>
+
+    <section class="tech-showcase">
+        <h2>Our Biotech Solutions</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <h3>Advanced Bioprocessing</h3>
+                <p>Revolutionary bioprocessing systems that enhance the production of sustainable materials and pharmaceuticals through engineered microorganisms.</p>
+            </div>
+            <div class="tech-item">
+                <h3>Environmental Biotechnology</h3>
+                <p>Biological solutions for environmental challenges, including engineered organisms for pollution control and waste management.</p>
+            </div>
+            <div class="tech-item">
+                <h3>Medical Biotechnology</h3>
+                <p>Cutting-edge therapeutic solutions and diagnostic tools utilizing the latest advances in biotechnology and genetic engineering.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="specs-section">
+        <div class="specs-container">
+            <h2>Research Areas</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Our biotechnology research focuses on:</p>
+                    <br>
+                    <ul>
+                        <li>Synthetic Biology and Metabolic Engineering</li>
+                        <li>CRISPR Gene Editing Technologies</li>
+                        <li>Bioinformatics and Computational Biology</li>
+                        <li>Tissue Engineering and Regenerative Medicine</li>
+                        <li>Sustainable Biomanufacturing Processes</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="towerc7.jpg" alt="ACORP Biotechnology Laboratory" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>Email: biotech@acorp.com</li>
+                    <li>Phone: (555) 123-4567</li>
+                    <li>Address: ACORP Headquarters</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACORP - Air & Water Purification</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .tech-item {
+            background: rgb(0, 0, 0);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .tech-showcase {
+            background: #000000;
+            color: white;
+            padding: 4rem 2rem;
+        }
+
+        .tech-showcase h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
+
+        .specs-section {
+            background: #cacaca;
+            padding: 4rem 2rem;
+            animation: backgroundColorChange 10s infinite alternate;
+        }
+
+        .specs-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ALOURA CORPORATION (PROTOYPE V:0.001)</a>
+            <div class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="index.html#features">Locations</a>
+                <a href="index.html#innovations">Innovations</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Air & Water Purification Technologies</h1>
+        <p>Leading the revolution in environmental purification with next-generation systems for homes, businesses, and cities.</p>
+    </section>
+
+    <section class="tech-showcase">
+        <h2>Our Purification Solutions</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <h3>City-Scale Air Purification</h3>
+                <p>Massive air purification towers capable of cleaning the air for entire city districts. Using advanced filtration and ionization technologies.</p>
+            </div>
+            <div class="tech-item">
+                <h3>Ocean Water Purification</h3>
+                <p>Floating hexagonal structures that purify ocean water and convert it to drinking water while removing pollutants and microplastics.</p>
+            </div>
+            <div class="tech-item">
+                <h3>Home Solutions</h3>
+                <p>Compact yet powerful purification systems for residential use, providing hospital-grade air and water quality for your home.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="specs-section">
+        <div class="specs-container">
+            <h2>Technical Specifications</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Our purification systems utilize cutting-edge technology including:</p>
+                    <br>
+                    <ul>
+                        <li>Advanced HEPA filtration with 99.99997% efficiency</li>
+                        <li>Quantum dot photocatalytic oxidation</li>
+                        <li>AI-powered contamination detection</li>
+                        <li>Zero-waste water purification processes</li>
+                        <li>Smart grid integration for optimal efficiency</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="towerc6.jpg" alt="ACORP Purification Tower" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>Email: purification@acorp.com</li>
+                    <li>Phone: (555) 123-4567</li>
+                    <li>Address: ACORP Headquarters</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
